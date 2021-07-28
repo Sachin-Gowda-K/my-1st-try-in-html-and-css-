@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/* font-family: 'Big Shoulders Stencil Display', cursive; */
+/* font-family: 'Overpass', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+.iteam2{
+  color: red;
+}
+
+/* ..................................................middle................................................................. */
+.data {
+  /* border: 2px solid black; */
+  height: 40vh;
+  width: 80vh;
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-bottom: 10%;
+}
+.ques {
+  color: rgba(1, 1, 243, 0.664);
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Roboto";
+  margin-top: 1%;
+}
+.ans {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Poppins";
+  margin-top: -10%;
+}
+.bttn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  /* font-weight: bold; */
+  font-size: 18px;
+  /* border: 2px solid rgb(255, 255, 255); */
+  background-color: blue;
+  padding: 10px 9px;
+  border-radius: 19px;
+}
+.bttn:hover {
+  color: white;
+  background-color: black;
+  border: black;
+  font-family: "Roboto", sans-serif;
+}
+.le {
+  border: none;
+  background: none;
+  margin-top: 1%;
+}
+.img {
+  height: 60vh;
+  width: 80vh;
+  margin-top: -30%;
+  margin-left: 55%;
+  margin-bottom: 50%;
+  background: url(img/store.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.post1 {
+  background-color: lightgreen;
+  height: 25vh;
+  width: 50vh;
+  position: absolute;
+  top: 105%;
+  left: 20%;
+}
+.post2 {
+  background-color: lightgreen;
+  height: 25vh;
+  width: 50vh;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+}
+.post3 {
+  height: 25vh;
+  width: 50vh;
+  position: absolute;
+  top: 140%;
+  left: 20%;
+  background-color: lightgreen;
+}
+.post4 {
+  background-color: lightgreen;
+  height: 25vh;
+  width: 50vh;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+}
+.fas{
+  padding: 15px 3px;
+  font-size:90px;
+  height: 20vh;
+  width: 30vh;
+}
+.testo {
+  position: absolute;
+  top: 93%;
+  left: 42%;
+  color: blue;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.iteam6 {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  /* font-weight: bold; */
+}
+.iteam6:hover{
+  /* background-color: rgba(0, 0, 0, 0.795); */
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+/* <.......................................footer....................................................................> */
+
+::-webkit-scrollbar{
+  display: none;
+}

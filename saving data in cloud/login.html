@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="java/login2.js"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <style>
+        .item6 {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="list">
+            <ul class="one">
+                <li class="li"><a href="home.html" class="iteam1" target="blank">Home</a></li>
+                <li class="li"><a href="about.html" class="iteam2" target="blank">About</a></li>
+                <li class="li"><a href="features.html" class="iteam3" target="blank">Features</a></li>
+                <li class="li"><a href="contact.html" class="iteam6" target="blank">contact us</a></li>
+
+            </ul>
+            <ul class="two">
+                <li class="li1"><a href="login.html" class="item4" target="blank"
+                        style="color: red; font-weight: bold;">Login</a></li>
+            </ul>
+            <ul class="three">
+                <li class="li2"><a href="signup.html" class="item5" target="blank">Signup</a></li>
+            </ul>
+            <p class="logo">Sachin</p>
+        </div>
+    </div>
+    <div class="sec">
+
+    </div>
+    <!-- </center> -->
+    <!-- <center> -->
+    <div class="header">
+        <h1 class="head">Login</h1>
+        <form name="myForm" onsubmit="return(validate());">
+            <div class="emali">
+                <i class="far fa-envelope"></i>
+                <input type="email" class="mail1" name="email" placeholder="Email" maxlength="20" value="">
+            </div>
+            <div class="pass1">
+                <i class="fas fa-unlock"></i>
+                <input type="password" class="pass" name="password" placeholder="Password" maxlength="10">
+            </div>
+            <div class="forgot">
+                <button><a href="" class="for">Forgot Password?</a></button>
+            </div>
+            <div class="login">
+                <input type="submit" class="subb" value="Login" onclick="validate()">
+            </div>
+            <button class="google"><a href="" class="for1">Login using Google Account</a></button>
+        </form>
+    </div>
+    <!-- <...............................................< footer >.....................................................>  -->
+    <footer class="foot"><br>
+        <div class="footer">
+            <h1 class="loog">Sachin</h1>
+        </div>
+        <div class="foot1">
+            <a href="#" class="cs">home</a>
+            <a href="#" class="cs">about us</a>
+            <a href="#" class="cs">contact</a>
+
+        </div>
+        <div class="foot2">
+            <h3 class="num">+91 93939393</h3>
+            <h3 class="mail">SACHIN@gmail.com</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.nav {
+    background-color: lightgray;
+    height: 10vh;
+    margin-top: -1.3%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+  }
+  .li {
+    list-style: none;
+    margin-top: 1.8%;
+  }
+  .li1 {
+    list-style: none;
+  }
+  .li2 {
+    list-style: none;
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .two {
+    /* position: absolute; */
+    /* left: 85%;
+      top */
+      box-sizing: border-box;
+    margin-left: 85%;
+    margin-top: -3.4%;
+  }
+  .three {
+    /* position: absolute; */
+    /* left: 85%;
+      top */
+      box-sizing: border-box;
+    margin-left: 90%;
+    margin-top: -3.4%;
+  }
+  
+  .iteam1 {
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .iteam2 {
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .iteam3 {
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .item4 {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-weight: bold;
+
+  }
+  .item5 {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  .logo {
+    color: darkblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    /* font-variant: small-caps; */
+    margin-top: -4%;
+    width: fit-content;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+  .iteam2:hover,
+  .iteam3:hover,
+  .item4:hover,
+  .item5:hover,
+  .iteam6:hover,
+  .iteam1:hover {
+    /* background-color: rgba(0, 0, 0, 0.795); */
+    color: rgb(255, 0, 0);
+    /* font-weight: bold; */
+    border-radius: 3px;
+    border: 0.5px solid black;
+  
+  }
